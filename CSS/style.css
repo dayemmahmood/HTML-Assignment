@@ -1,0 +1,578 @@
+/*Google fonts intregrate*/
+@import url (<style>
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+</style>)
+
+/* global CSS */
+*{
+	margin: 0;
+	padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+font-family: 'Quicksand', sans-serif;
+}
+a, span, p, input{
+	font-family: 'Roboto', sans-serif;
+
+}
+/* header part of the CSS */
+.header{
+	width: 100%;
+	background: #ffff;
+	padding:18px;
+	line-height:20px;
+}
+
+.header span{
+	font-size: 30px;
+	font-weight: 600;
+	margin-left: 10px;
+}
+.banner{
+	width: 100%;
+	height: 80vh;
+}
+.container{
+	width : 1140px;
+	margin: 0 auto;
+}
+.row{
+	width: 100%;
+    float: left;
+    margin: -2px 24px;
+}
+.col-6 {
+	width: 47%;
+	float: left;
+	
+}
+
+.col-1{
+	width: 15%;
+	float: left;
+}
+.col-11{
+	width: 85%;
+	float: right;
+}
+.banner .left{
+	padding: 34px;
+}
+
+.banner .left h1{
+	font-size: 44px;
+	margin-bottom: 16px;
+}
+.banner .left p{
+	font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 20px;
+    color: #4c527d;
+}
+.banner button{
+	padding: 20px 50px;
+    border-radius: 35px;
+    outline: none;
+    border: 2px solid #ed6524;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+
+}
+.banner .left-button{
+	background: #ed6524;
+	font-size: 18px;
+	color: white;
+}
+.banner .right-button{
+	background: #ffff;
+	color: #ed6524;
+	font-size: 18px;
+}
+
+.banner .right-button:hover{
+	background-color: #ed6524;
+	color: white;
+	transition: 1s;
+}
+
+}
+.testomonial{
+	width: 100%;
+	margin: 30px 0;
+}
+
+.message{
+	height: 140px;
+	width: 100%;
+	background: #f6f4fc;
+	border-left: 4px solid #f5a782;
+	position: relative;
+
+}
+.message p{
+	font-size: 16px !important;
+	padding: 40px !important;
+	line-height: 20px !important;
+	font-style: italic;
+}
+
+.corner-box{
+	height: 40px;
+	width: 40px;
+	background: #f6f4fc;
+	position: absolute;
+	bottom: -15px;
+	left: 5%;
+	transform: rotate(45deg);
+}
+
+.user{
+	width: 70%;
+	height: 70px;
+	margin-top: 22px;
+}
+.user img{
+	width: 80px;
+}
+
+.user-info{
+	padding: 15px 35px;
+}
+
+.user-info p{
+	margin: 0 !important;
+	padding: 0 !important;
+	font-weight: 400 !important;
+	line-height: 18px !important;
+	font-size: 18px !important;
+}
+.banner-right{
+	margin-left: 60px;
+}
+.see-all{
+	width: 100%;
+    text-align: center;
+}
+.see-all a:hover{
+	color: #ed6524;
+}
+.banner .circle{
+	height: 140px;
+    width: 120px;
+    background: green;
+    border-radius: 50%;
+    line-height: 112px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    right: 277px;
+    top: 22px;
+}
+
+/*End of 1st part of CSS Code*/
+/*-----------------------------------------------*/
+/*Service Section CSS Code Starts From Here*/
+
+.service{
+	width: 100%;
+	height: 60vh;
+	text-align: center;
+	padding:140px 0;
+
+}
+
+.service-body{
+	width: 100%;
+	float: left;
+	padding: 80px 0!important;
+}
+
+.col{
+	width: 33.33%;
+	float:left;
+}
+.service-title{
+	padding: 35px 0;
+    text-align: center;
+    background-image: linear-gradient(to bottom,#f6f8fc 0%,#ffff 70%);
+}
+
+}
+.service-title h1{
+	margin: 10px 0;
+	font-size: 50px;
+}
+.service-title p{
+	font-size:21px;
+	line-height:30px;
+	color: #4c527d;
+}
+.item{
+	text-align: center;
+    padding: 32px 20px;
+
+}
+.item h3{
+	margin: 15px 0;
+    font-size: 21px;
+}
+.item p{
+	color: #4c527d;
+	line-height: 24px;
+	font-size: 18px;
+}
+/*Service Section CSS Code Starts Ends Here*/
+/*-----------------------------------------------*/
+/*Item Section CSS Code Starts From Here*/
+
+.item-selection{
+	width 100%
+	height: 60vh;
+	padding: 100px 0;
+
+}
+.item-title{
+text-align: center;
+
+}
+.item-title h1{
+	font-size: 42px;
+
+}
+.item-body{
+	width: 100%
+	float left;
+
+}
+.col-5 {
+	width: 50%;
+	float: left;
+	margin: 50px 0;
+
+}
+.item-img{
+	padding: 5px;
+	text-align: right;
+}
+.item-text{
+	padding: 6px;
+    font-size: 24px;
+}
+.item-text ul li {
+	list-style: none;
+	color: #4c527d;;
+	margin-bottom: 18px;
+	margin-left: 10px;
+}
+.item-text ul li i{
+	color: #7FCD88
+
+}
+.item-text button {
+    background: #ed6524;
+    font-size: 18px;
+    color: white;
+    padding: 20px 50px;
+    border-radius: 35px;
+    outline: none;
+    border: 2px solid #ed6524;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    cursor: pointer;
+ }
+
+/*Service Section CSS Code Ends Here*/
+/*-----------------------------------------------*/
+/*Who Section CSS Code Starts Here*/
+
+.who{
+	width: 100%;
+	display: flow-root;
+	padding:10px 0;
+    text-align: center;
+}
+.who-title{
+text-align: center;
+
+}
+.who-title h1{
+	font-size: 42px;
+	margin: 10px 0px;
+	text-align: center;
+
+}
+.who-title p{
+	padding: 20px;
+	font-size: 25px;
+	line-height: 35px;
+	color:  #4c527d;
+}
+.who-text{
+	font-size: 20px;
+    margin: 0 20px;
+    margin-top: 10px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #4c527d;
+}
+.who-text ul li {
+ 	list-style: none;
+    width: 100%;
+    font-weight: 600;
+    font-size: 30px;
+    padding-top: 27px;
+}
+
+
+.who-text{
+    margin-left: -200px;
+}
+
+.who-text ul li i{
+	color: #7FCDBB;
+    margin-right: 20px;
+}
+
+.who-text ul li p {
+    font-size: 20px;
+    margin: 0 50px;
+    margin-top: 10px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #4c527d;
+}
+
+/*Who Section CSS Code Ends Here*/
+/*-----------------------------------------------*/
+/*Subscribe Section CSS Code Starts Here*/
+
+.subscribe{
+	width: 100%;
+	display: flow-root;
+	padding: 50px 0;
+}
+
+.subscribe-box {
+	background-color: #f6f4fc;
+    padding: 29px;
+    text-align: center;
+    width: 75%;
+    margin: 0px auto;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+}
+.subscribe-box h1 {
+    font-size: 32px;
+}
+.subscribe-box p{
+	color: #4c527d;
+	margin: 20px;
+	line-height: 22px;
+	 font-size: 20px;
+}
+.email-input {
+    padding: 20px 50px;
+    width: 360px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 400;
+}
+.send-button {
+    padding: 15px 20px;
+    font-weight: 400;
+    background-color: #ed6524;
+    color: white;
+    border: 1px solid #ed6524;
+    border-radius: 5px;
+}
+/*Subscribe Section CSS Code Ends Here*/
+/*-----------------------------------------------*/
+/*Breview Section CSS Code Starts Here*/
+.breview {
+    width: 100%;
+    display: flow-root;
+}
+.breview-title {
+    margin: 50px 0px;
+    text-align: center;
+}
+.breview-title h1 {
+    font-size: 42px;
+}
+.breview-title p {
+    color: #4c527d;
+    font-size: 20px;
+}
+.breview-1 {
+    width: 100%;
+    float: left;
+}
+.brol{
+	width: 100%;
+    float: left;
+    margin-left: 40px;
+}
+.brcol {
+    width: 33.33%;
+    float: left;
+}
+
+/*Breview Section- Space CSS Code Starts Here*/
+ 
+.breview-box {
+    padding: 15px;
+    background-color: #f6f4fc;
+    position: relative;
+    margin: 25px 15px;
+}
+.testimonial-icon {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background: tomato;
+    position: absolute;
+    left: 42%;
+    top: -9%;
+    text-align: center;
+    line-height: 35px;
+    color: white;
+}
+.breview-text {
+    margin: 0 5px;
+}
+.breview-text p {
+    color: #4c527d;
+}
+.bruser1 {
+    width: 100%;
+    height: 170px;
+    margin-top: 20px;
+}
+.brocol1 {
+    width: 100%;
+    float: left;
+    margin: 0 18px;
+}
+.brocol2 {
+    width: 20%;
+    float: left;
+}
+.bruser1 img {
+    width: 25%;
+}
+.brcol22 {
+    width: 85%;
+    float: right;
+}
+.brcol22 p {
+    color: #4c527d;
+}
+.bruser-inf p {
+     margin: 3px 15px;
+    line-height: 15px;
+    font-size: 20px !important;
+}
+.middle {
+    padding: 10px 8px;
+    margin: 0 500px;
+    color: white;
+    border: 1px solid #ed6524;
+    border-radius: 25px;
+    background-color: #ed6524;
+	height: 50px;
+    width: 250px;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+
+
+/*Breview Section CSS Code Ends Here*/
+/*-----------------------------------------------*/
+/*About Section- CSS Code Starts Here*/
+.about {
+     width: 100%;
+    display: flow-root;
+    background:#ed6524 ;
+    height: 610px;
+    margin-top: 70px;
+}
+.user-profile img {
+    width: 15%;
+    margin-bottom: 30px;
+    margin-top: -50px;
+    display: block;
+    margin: auto;
+
+}
+.about h1 {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+.about p {
+    margin-top: 12px;
+    line-height: 28px;
+    color: white;
+    text-align: center;
+     font-size: 18px;
+}
+.about p a {
+    color: white;
+}
+/*Social Icon*/
+
+.author h1 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 24px;
+}
+.social-icon ul li {
+    list-style: none;
+    display: inline-block;
+    
+}
+.social-icon  i {
+    font-size: 22px;
+    height: 50px;
+    width: 50px;
+    background: #BE4707;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    margin: 0 20px;
+}
+/*Footer Section- CSS Code */
+
+
+.footer{
+    width: 100%;
+    display: flow-root;
+    height: 100px;
+    background: white;  
+}
+
+.footer-note{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.footer-note span{
+    font-size: 18px !important;
+    color: #4c527d;
+}
+
+.footer-note i{
+    color: #ed6524 ;
+}
+
+
+/*About Section-  CSS Code Ends Here*/
+/*-----------------------------------------------*/
+
